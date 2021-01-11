@@ -1,0 +1,45 @@
+.backgroundbox {
+    background: rgba(0, 0, 0, 0.5);
+    background-image: radial-gradient(ellipse at 50px 10px , rgba(100,100,100,0.1) 0%, rgba(100,100,100,0.1) 1%, rgba(0,0,0,0.5) 100%);
+    border: 1px solid rgb(150,150,150,0.2);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    min-width: 420px;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 80px;
+    margin-bottom: 0px;
+    text-shadow: 10px 10px 5px #000;
+}   
+  
+p {
+    font-size: 24px;
+    color: #FFF;
+    padding-top: 5px;
+    text-shadow: 3px 3px 1px #000;
+}
+
+.socialicons {
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+.socialicon, .socialicon:hover {
+    font-size: 30px;
+    padding: 0px 20px;
+    color: #FFF;
+    text-decoration: none;
+    text-shadow: 3px 3px 1px #000;
+}
+
+.row {
+    padding-left: 20px;
+}
+
+.col-6 {
+    padding-left: 0;
+}

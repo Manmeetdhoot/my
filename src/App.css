@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+html {
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: 'Arcade Classic', 'Raleway', sans-serif;
+  background: url('images/bg.jpg');
+  background-size: cover;
+  background-position: top;
+  background-color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carContainer{
+  width: 100%; 
+  overflow: visible; 
+  position: absolute;
+  top: 84.5vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.car{
+  position: absolute; 
+  right: -350px;
+  text-align: center; 
+  width: 100px;
+  animation: CarSlide infinite;
+      -webkit-animation: CarSlide infinite; 
+      -moz-animation: CarSlide infinite;
+      -webkit-animation-fill-mode: forwards;
+      -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  animation-duration: 15s;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes CarSlide {from {position: absolute; right: 0px;} to {position: absolute; right: 2500px;}}
+
+
+.aircraftContainer {
+  width: 100%; 
+  overflow: visible; 
+  position: absolute;
+  margin-top: 0;
+  z-index: -1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aircraft {
+  position: absolute; 
+  left: -350px;
+  text-align: center; 
+  width: 20px;
+  animation: AircraftSlide infinite;
+      -webkit-animation: AircraftSlide infinite; 
+      -moz-animation: AircraftSlide infinite;
+      -webkit-animation-fill-mode: forwards;
+      -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+  animation-duration: 60s;
 }
+
+@keyframes AircraftSlide {from {position: absolute; left: 0px;} to {position: absolute; left: 2500px;}}
