@@ -23,7 +23,7 @@ export default class Connect extends Component {
                     </a>
                     <hr className="navbreak" />
                     <p className="text-white raleway pt-3">
-                        Interested in working together or hiring me for a project? Reach out and lets connect today!
+                        Interested in working together? <br /> Reach out and let's connect today!
                     </p>
                 </div>
 
