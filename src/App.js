@@ -2,10 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header';
 import Navigation from './components/navigation';
-import About from './pages/about';
-import Start from './pages/start';
 import Aircraft from './components/aircraft';
 import Car from './components/car';
+import About from './pages/about';
+import Start from './pages/start';
+import Projects from './pages/projects';
+import Resume from './pages/resume';
+import Connect from './pages/connect';
+
 
 class App extends Component {
   constructor(props) {
@@ -32,6 +36,12 @@ class App extends Component {
         return <Navigation onClick={this.changePage} />
       case 'ABOUT':
         return <About />
+      case 'PROJECTS':
+        return <Projects />
+      case 'RESUME':
+        return <Resume />
+      case 'CONNECT':
+        return <Connect />
       default:
         return <Start onClick={this.navigate} />
     }
