@@ -17,6 +17,7 @@
 
 .biopicture {
     height: 125px;
+    width: 125px;
     border-radius: 100%;
     border-style: solid;
     border-color: white;
