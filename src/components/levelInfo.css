@@ -2,7 +2,6 @@
     background: rgba(0, 0, 0, 0.5);
     background-image: radial-gradient(ellipse at 50px 10px , rgba(100,100,100,0.1) 0%, rgba(100,100,100,0.1) 1%, rgba(0,0,0,0.5) 100%);
     border: 1px solid rgb(150,150,150,0.2);
-    border-radius: 20px;
     margin: 10px;
     padding-top: 15px;
 }
@@ -13,6 +12,7 @@
 
 .return {
     color: #FFF;
+    font-size: 18px;
 }
 
 .return:hover {

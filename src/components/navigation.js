@@ -16,16 +16,16 @@ export default class Navigation extends Component {
     render() {
         return(
             <div className="navigation row align-items-center">
-                <div className="levelbox justify-content-center shadow-lg">
-                    <h4 class="secondarytitle"><u>Level Select</u></h4>
+                <div className="menubox justify-content-center shadow-lg">
+                    <h2 class="secondarytitle textspaced"><u>Level Select</u></h2>
 
                     <ul className="navbar-nav">
-                        <li className="nav-item" id="ABOUT" onClick={this.handleClick}>1. About</li>
-                        <li className="nav-item" id="PROJECTS" onClick={this.handleClick}>2. Projects</li>
-                        <li className="nav-item" id="RESUME" onClick={this.handleClick}>3. Resume</li>
-                        <li className="nav-item" id="CONNECT" onClick={this.handleClick}>4. Connect</li>
+                        <li className="nav-item textspaced" id="ABOUT" onClick={this.handleClick}>About</li>
+                        <li className="nav-item textspaced" id="PROJECTS" onClick={this.handleClick}>Projects</li>
+                        <li className="nav-item textspaced" id="RESUME" onClick={this.handleClick}>Resume</li>
+                        <li className="nav-item textspaced" id="CONNECT" onClick={this.handleClick}>Connect</li>
                         <hr className="navbreak"/>
-                        <li className="nav-item" id="START" onClick={this.handleClick}>Restart</li>
+                        <li className="nav-item textspaced" id="START" onClick={this.handleClick}>Restart</li>
                     </ul>
                 </div>
             </div>

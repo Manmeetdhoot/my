@@ -1,8 +1,8 @@
 .splashscreen, .splashscreen:hover {
-    max-height: 500px;
+    max-height: 450px;
+    max-width: 450px;
     height: auto;
-    border-radius: 20%;
-    border: 2px solid white;
+    border: 1px solid black;
     box-shadow:  0.5rem 1rem rgba(0, 0, 0, 0.75);
     cursor: pointer;
 }

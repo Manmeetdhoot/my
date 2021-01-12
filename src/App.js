@@ -56,7 +56,7 @@ class App extends Component {
           <Car />
         </div>
   
-        <div className="col-12 gamearea">
+        <div className="col-12 gamearea pt-3">
 
           {this.showPage()}
 

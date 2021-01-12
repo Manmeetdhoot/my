@@ -4,37 +4,38 @@ import './connect.css';
 export default class Connect extends Component {
     render() {
         return(
-            <div className="col-12 row justify-content-center">
-                <div className="col-3 socialbox text-center shadow-lg">
-                    <h2 className="textpink">GitHub</h2>
+            <div className="col-12 row justify-content-center pt-5 mt-3">
+                <div className="col-3 socialbox text-center shadow-lg pt-5">
+                    <h1 className="textpink textspaced">GitHub</h1>
                     <a href="https://github.com/neetmangat" target="_blank" rel="noreferrer" className="socialicon-large">
                         <span className="icon-github"></span>
                     </a>
                     <hr className="navbreak" />
-                    <p className="text-white raleway pt-3">
+
+                    <p className="text-white raleway pt-4">
                         Check out the source code for some cool projects, including this portfolio!
                     </p>
                 </div>
 
-                <div className="col-3 socialbox text-center shadow-lg">
-                    <h2 className="textpink">Email</h2>
+                <div className="col-3 socialbox text-center shadow-lg pt-5">
+                    <h1 className="textpink textspaced">Email</h1>
                     <a href="mailto:gurneetsmangat@gmail.com" target="_blank" rel="noreferrer" className="socialicon-large">
                         <span className="icon-mail_outline socialicon-large"></span>
                     </a>
                     <hr className="navbreak" />
-                    <p className="text-white raleway pt-3">
+                    <p className="text-white raleway pt-4">
                         Interested in working together? <br /> Reach out and let's connect today!
                     </p>
                 </div>
 
-                <div className="col-3 socialbox text-center shadow-lg">
-                    <h2 className="textpink">LinkedIn</h2>
+                <div className="col-3 socialbox text-center shadow-lg pt-5">
+                    <h1 className="textpink textspaced">LinkedIn</h1>
                     <a href="https://www.linkedin.com/in/neetmangat/" target="_blank" rel="noreferrer" className="socialicon-large">
                         <span className="icon-linkedin-square"></span>
                     </a>
                     <hr className="navbreak" />
-                    <p className="text-white raleway pt-3">
-                        Want to share networks and and learn a little more about me? Reach out today on LinkedIn.
+                    <p className="text-white raleway pt-4">
+                        Want to share networks and learn more? <br /> Reach out on LinkedIn.
                     </p>
                 </div>
             </div>

@@ -8,11 +8,11 @@
 
 .vl {
     border-left: 1px solid white;
-    height: 400px;
+    height: 350px;
     position: absolute;
     left: 50%;
     margin-left: -3px;
-    top: 5%;
+    top: 15%;
 }
 
 .biopicture {
