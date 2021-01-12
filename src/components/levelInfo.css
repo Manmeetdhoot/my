@@ -5,8 +5,6 @@
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
-    overflow: hidden;
-    justify-content: center;
 }
 
 .levelname {
@@ -14,10 +12,15 @@
 }
 
 .return {
-    color: rgb(255, 224, 87);
+    color: #FFF;
 }
 
 .return:hover {
+    color: rgb(255, 224, 87);
     text-decoration: underline;
     cursor: pointer;
+}
+
+.whitetitle {
+    color: white;
 }
