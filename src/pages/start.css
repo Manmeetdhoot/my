@@ -1,0 +1,29 @@
+.splashscreen {
+    max-height: 500px;
+    height: auto;
+    border-radius: 20%;
+    border: 2px solid white;
+    box-shadow:  0.5rem 1rem rgba(0, 0, 0, 0.75)
+}
+
+.startgame {
+    font-size: 40px;
+    position: absolute;
+    top: 70%;
+    color: rgb(255, 175, 25);
+}
+
+.startgame:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.4;
+    }
+}

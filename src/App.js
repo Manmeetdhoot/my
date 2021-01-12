@@ -1,26 +1,59 @@
+import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header';
 import Navigation from './components/navigation';
 import About from './pages/about';
-import lambo from './images/lambo.png';
-import aircraft from './images/aircraft.png';
+import Start from './pages/start';
+import Aircraft from './components/aircraft';
+import Car from './components/car';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <div class="aircraftContainer">
-          <img alt="aircraft" src={aircraft} class="aircraft shadow-sm" />
-      </div>
-      <Navigation />
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      page: 'start',
+    }
 
-      <About />
-    
-      <div class="carContainer">
-          <img alt="lambo" src={lambo} class="car shadow-sm" />
+    this.changePage = this.changePage.bind(this);
+    this.navigate = this.navigate.bind(this);
+  }
+
+  changePage(newPage) {
+    this.setState({ page: newPage });
+  }
+
+  navigate() {
+    this.setState({ page: 'navigation' });
+  }
+
+  showPage() {
+    switch (this.state.page) {
+      case 'navigation':
+        return <Navigation onClick={this.changePage} />
+      case 'about':
+        return <About />
+      default:
+        return <Start onClick={this.navigate} />
+    }
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <div className="headerarea">
+          <Header />
+          <Aircraft />
+          <Car />
+        </div>
+  
+        <div className="gamearea justify-content-center">
+
+          {this.showPage()}
+
+        </div>
       </div>
-    </div>
-  );
+    )
+  }
 }
 
 export default App;
