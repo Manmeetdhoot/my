@@ -11,7 +11,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      page: 'start',
+      page: 'START',
     }
 
     this.changePage = this.changePage.bind(this);
@@ -23,14 +23,14 @@ class App extends Component {
   }
 
   navigate() {
-    this.setState({ page: 'menu' });
+    this.setState({ page: 'MENU' });
   }
 
   showPage() {
     switch (this.state.page) {
-      case 'menu':
+      case 'MENU':
         return <Navigation onClick={this.changePage} />
-      case 'about':
+      case 'ABOUT':
         return <About />
       default:
         return <Start onClick={this.navigate} />
@@ -40,13 +40,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="headerarea">
+        <div className="col-12 headerarea">
           <Header page={this.state.page} onClick={this.changePage} />
           <Aircraft />
           <Car />
         </div>
   
-        <div className="gamearea justify-content-center">
+        <div className="col-12 gamearea">
 
           {this.showPage()}
 

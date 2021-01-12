@@ -17,7 +17,7 @@ export default class Header extends Component {
                 </div>
 
                 <div className="col-lg-3 col-md-12 offset-lg-2 offset-md-0">
-                    {this.props.page === 'start' || this.props.page === 'menu' ? null : <LevelInfo page={this.props.page} onClick={this.props.onClick} />}
+                    {this.props.page === 'START' || this.props.page === 'MENU' ? null : <LevelInfo page={this.props.page} onClick={this.props.onClick} />}
                 </div>
             </div>
         )

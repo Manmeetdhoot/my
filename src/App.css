@@ -27,3 +27,19 @@ body {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.textblue {
+  color: rgb(88, 202, 255);
+}
+
+.textyellow {
+  color: rgb(255, 175, 25);
+}
+
+.breakyellow {
+  color: white;
+  border: 1px solid rgb(255, 255, 255);
+  width: 90%;
+  padding: 0px;
+  margin: 0px;
+}

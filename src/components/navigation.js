@@ -20,12 +20,12 @@ export default class Navigation extends Component {
                     <h4 class="secondarytitle"><u>Level Select</u></h4>
 
                     <ul className="navbar-nav">
-                        <li className="nav-item" id="about" onClick={this.handleClick}>1. About</li>
-                        <li className="nav-item" id="projects" onClick={this.handleClick}>2. Projects</li>
-                        <li className="nav-item" id="resume" onClick={this.handleClick}>3. Resume</li>
-                        <li className="nav-item" id="social" onClick={this.handleClick}>4. Social</li>
+                        <li className="nav-item" id="ABOUT" onClick={this.handleClick}>1. About</li>
+                        <li className="nav-item" id="PROJECTS" onClick={this.handleClick}>2. Projects</li>
+                        <li className="nav-item" id="RESUME" onClick={this.handleClick}>3. Resume</li>
+                        <li className="nav-item" id="SOCIAL" onClick={this.handleClick}>4. Social</li>
                         <hr className="navbreak"/>
-                        <li className="nav-item" id="start" onClick={this.handleClick}>Restart</li>
+                        <li className="nav-item" id="START" onClick={this.handleClick}>Restart</li>
                     </ul>
                 </div>
             </div>
