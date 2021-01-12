@@ -23,12 +23,12 @@ class App extends Component {
   }
 
   navigate() {
-    this.setState({ page: 'navigation' });
+    this.setState({ page: 'menu' });
   }
 
   showPage() {
     switch (this.state.page) {
-      case 'navigation':
+      case 'menu':
         return <Navigation onClick={this.changePage} />
       case 'about':
         return <About />
@@ -41,7 +41,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="headerarea">
-          <Header />
+          <Header page={this.state.page} onClick={this.changePage} />
           <Aircraft />
           <Car />
         </div>

@@ -16,8 +16,8 @@ export default class Navigation extends Component {
     render() {
         return(
             <div className="navigation row align-items-center">
-                <div className="levelbox justify-content-center">
-                    <h4><u>Level Select</u></h4>
+                <div className="levelbox justify-content-center shadow-lg">
+                    <h4 class="secondarytitle"><u>Level Select</u></h4>
 
                     <ul className="navbar-nav">
                         <li className="nav-item" id="about" onClick={this.handleClick}>1. About</li>

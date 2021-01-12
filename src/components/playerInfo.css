@@ -1,0 +1,22 @@
+.playername {
+    color: rgb(255, 175, 25);
+    font-size: 60px;
+    margin-bottom: 0px;
+    text-shadow: 5px 5px 2.5px #000;
+}   
+  
+.playerbio {
+    font-size: 20px;
+    color: rgb(88, 202, 255);
+    padding-top: 15px;
+    margin-bottom: 0px;
+    text-shadow: 3px 3px 1px #000;
+}
+
+.horizontalbreak {
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+}

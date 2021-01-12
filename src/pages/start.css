@@ -1,9 +1,10 @@
-.splashscreen {
+.splashscreen, .splashscreen:hover {
     max-height: 500px;
     height: auto;
     border-radius: 20%;
     border: 2px solid white;
-    box-shadow:  0.5rem 1rem rgba(0, 0, 0, 0.75)
+    box-shadow:  0.5rem 1rem rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 .startgame {

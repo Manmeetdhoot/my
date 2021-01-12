@@ -5,8 +5,8 @@ import './car.css';
 export default class Car extends Component {
     render() {
         return(
-            <div class="carContainer">
-                <img alt="lambo" src={lambo} class="car shadow-sm" />
+            <div className="carContainer">
+                <img alt="lambo" src={lambo} className="car shadow-sm" />
             </div>
         )
     }
