@@ -1,5 +1,5 @@
 .filler{
-    height: 0vh;
+    height: 10vh;
 }
 
 .startpage, .startpage:hover {
@@ -32,5 +32,6 @@
     width: 100%;
     height: auto;
     border: 2px solid rgb(250, 95, 255, 0.75);
+    border-radius: 10%;
     cursor: pointer;
 }

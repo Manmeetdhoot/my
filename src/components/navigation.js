@@ -15,7 +15,7 @@ export default class Navigation extends Component {
 
     render() {
         return(
-            <div className="col-12 col-sm-10 offset-sm-1 col-lg-6 offset-lg-3">
+            <div className="col-xs-12 col-sm-10 offset-sm-1 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
                 <div className="menubox justify-content-center shadow-lg mb-5">
                     <h2 class="textyellow textspaced"><u>Level Select</u></h2>
 

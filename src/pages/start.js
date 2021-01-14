@@ -8,7 +8,7 @@ export default class Start extends Component {
             <div className="col-12">
                 <div className="filler"></div>
                 <div className="row justify-content-center ml-0 mr-0">
-                    <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 pt-5 mt-5 text-center shadow-lg">
+                    <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 pt-5 mt-5 text-center">
                         <img src={start} className="startimage" onClick={this.props.onClick} />
                         <p className="starttext blink_me textspaced" onClick={this.props.onClick}>START GAME</p>
                     </div>
