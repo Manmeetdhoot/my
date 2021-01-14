@@ -9,14 +9,14 @@ import PlayerInfo from './playerInfo';
 export default class Header extends Component {
     render() {
         return(
-            <div className="row">
-                <div className="col-lg-6 col-md-12">
+            <div className="row justify-content-center">
+                <div className="col-lg-6 col-xs-12">
                     <div className="row headerbox shadow-lg justify-content-center">
                         <PlayerInfo /> <Avatar />
                     </div>
                 </div>
 
-                <div className="col-lg-3 col-md-12 offset-lg-3 offset-md-0">
+                <div className="col-lg-3 col-md-8 offset-lg-3 offset-md-0 col-xs-8">
                     {this.props.page === 'START' || this.props.page === 'MENU' || this.props.page === 'PLAYER' 
                     ? null 
                     : <LevelInfo page={this.props.page} onClick={this.props.onClick} />}

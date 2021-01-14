@@ -8,7 +8,7 @@ export default class PlayerInfo extends Component {
                 <h2 className="playername textyellow">NEET MANGAT</h2>
                 <hr className="horizontalbreak"/>                        
                 <p className="playerbio textblue">
-                    Full Stack Web Developer 
+                    Web Developer 
                     <br /> 
                     Player 1
                 </p>    

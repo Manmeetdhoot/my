@@ -24,10 +24,9 @@ export default class Player extends Component {
                         <PlayerCard name="Neet Mangat" location="Dallas, TX" occupation="Web Developer" />
                     </div>
 
-                    <ul className="navbar-nav">
-                        <hr className="navbreak"/>
-                        <li className="nav-item textspaced" id="START" onClick={this.handleClick}>Restart</li>
-                    </ul>
+                    <hr className="navbreak"/>
+                    
+                    <div className="nav-item textspaced" id="START" onClick={this.handleClick}>Restart</div>
                 </div>
             </div>
         )
