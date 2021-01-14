@@ -37,7 +37,7 @@ export default class About extends Component {
                                 <li className="brief-item">Excellent team player.</li> 
                                 <li className="brief-item">Great communication skills.</li>     
                                 <li className="brief-item">Performs well under pressure.</li> 
-                                <li className="brief-item">Experienced in IT, finance, marketing and entertainment.</li>           
+                                <li className="brief-item">Experienced in IT, finance, and marketing.</li>           
                             </ul>
                         </div>                        
                     </div>
