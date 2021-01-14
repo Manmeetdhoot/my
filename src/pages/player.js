@@ -16,9 +16,8 @@ export default class Player extends Component {
 
     render() {
         return(
-            <div className="col-xs-12 col-sm-10 offset-sm-1 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 pt-5 mt-5 ">
-                <div className="filler"></div>
-                <div className="menubox justify-content-center shadow-lg">
+            <div className="col-xs-12 col-sm-10 offset-sm-1 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 pt-5 mt-5">
+                <div className="menubox justify-content-center shadow-lg mb-5">
                     <h2 class="textyellow textspaced"><u>Player Select</u></h2>
 
                     <div onClick={this.handleClick}>

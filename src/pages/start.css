@@ -1,7 +1,3 @@
-.filler{
-    height: 10vh;
-}
-
 .startpage, .startpage:hover {
     background: url("../images/start.jpg");
     background-size: cover;
