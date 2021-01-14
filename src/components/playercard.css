@@ -1,8 +1,8 @@
 .playerborder {
     padding: 15px;
-    border: 1px solid white;
     cursor: pointer;
 }
 .playerborder:hover {
-    border: 1px solid rgb(88, 202, 255);
+    border: 1px solid rgb(250, 95, 255);
+    border-radius: 10%;
 }
