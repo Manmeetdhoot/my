@@ -15,9 +15,9 @@ export default class Navigation extends Component {
 
     render() {
         return(
-            <div className="navigation row align-items-center">
-                <div className="menubox justify-content-center shadow-lg">
-                    <h2 class="secondarytitle textspaced"><u>Level Select</u></h2>
+            <div className="col-12 col-sm-10 offset-sm-1 col-lg-6 offset-lg-3">
+                <div className="menubox justify-content-center shadow-lg mb-5">
+                    <h2 class="textyellow textspaced"><u>Level Select</u></h2>
 
                     <ul className="navbar-nav">
                         <li className="nav-item textspaced" id="ABOUT" onClick={this.handleClick}>About</li>

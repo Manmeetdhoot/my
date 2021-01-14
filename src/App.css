@@ -2,7 +2,6 @@ html {
   height: 100%;
   padding: 10px;
   width: 100%;
-  overflow-y: auto;
   overflow-x: hidden;
 }
 
@@ -25,10 +24,6 @@ body {
   margin-bottom: auto;
 }
 
-.gamearea {
-  margin-top: auto;
-  margin-bottom: auto;
-}
 
 .textblue {
   color: rgb(88, 202, 255);
@@ -36,6 +31,14 @@ body {
 
 .textyellow {
   color: rgb(255, 175, 25);
+}
+
+.textpink {
+  color: rgb(250, 95, 255);
+}
+
+.secondarytitle {
+  color: rgb(255, 224, 87);
 }
 
 .breakyellow {
@@ -51,10 +54,12 @@ body {
   background-image: radial-gradient(ellipse at 50px 10px , rgba(100,100,100,0.1) 0%, rgba(100,100,100,0.1) 1%, rgba(0,0,0,0.5) 100%);
   border: 1px solid rgb(150,150,150,0.2);
   padding: 20px;
-  height: 500px;
+  min-height: 500px;
+  height: auto;
 }
 
 .textspaced {
   word-spacing: 10px;
   letter-spacing: 2px;
 }
+

@@ -16,9 +16,9 @@ export default class Player extends Component {
 
     render() {
         return(
-            <div className="navigation row align-items-center">
+            <div className="col-xs-12 col-lg-6 offset-lg-3">
                 <div className="menubox justify-content-center shadow-lg">
-                    <h2 class="secondarytitle textspaced"><u>Player Select</u></h2>
+                    <h2 class="textyellow textspaced"><u>Player Select</u></h2>
 
                     <div onClick={this.handleClick}>
                         <PlayerCard name="Neet Mangat" location="Dallas, TX" occupation="Web Developer" />

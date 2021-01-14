@@ -17,7 +17,7 @@ export default class LevelInfo extends Component {
         return(
             <div className="gameinfo">
                 <div className="text-center">
-                    <h4 className="secondarytitle textspaced">Current Level</h4>
+                    <h4 className="textyellow textspaced">Current Level</h4>
                     <h3 className="levelname textspaced">{this.props.page}</h3>
                     <hr className="navbreak" />
                     <p className="return textspaced" id="MENU" onClick={this.handleClick} >Return To Menu</p>

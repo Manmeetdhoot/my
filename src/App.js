@@ -62,7 +62,7 @@ class App extends Component {
         <Aircraft />
         <Car />
   
-        <div className="col-12 gamearea pt-3">
+        <div className="col-12 pt-3">
           {this.showPage()}
         </div>
       </div>
