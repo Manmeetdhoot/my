@@ -23,8 +23,13 @@ body {
   overflow-x: hidden;
   padding-bottom: 150px;
   margin-bottom: 100px;
+  touch-action: none;
 }
 
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
 
 
 .textblue {
