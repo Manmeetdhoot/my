@@ -6,7 +6,7 @@ export default class Car extends Component {
     render() {
         return(
             <div className="carContainer">
-                <img alt="lambo" src={lambo} className="car shadow-sm" />
+                <img alt="lambo" src={lambo} className="car shadow-sm" style={{opacity: 0.75}} />
             </div>
         )
     }

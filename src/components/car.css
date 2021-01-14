@@ -3,6 +3,8 @@
     overflow: visible; 
     position: absolute;
     top: 75vh;
+    z-index: -1;
+
 }
 
 .car{

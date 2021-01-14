@@ -26,3 +26,7 @@
 .no-bullets {
     list-style-type: none;
 }
+
+.smallheader {
+    font-size: 18px;
+}
