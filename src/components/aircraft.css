@@ -1,5 +1,5 @@
 .aircraftContainer {
-    width: 100%; 
+    width: 100vh; 
     overflow: visible; 
     position: absolute;
     top: 25vh;
@@ -17,7 +17,7 @@
         -webkit-animation-fill-mode: forwards;
         -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    animation-delay: 5s;
+    animation-delay: 3s;
     animation-duration: 60s;
 }
   

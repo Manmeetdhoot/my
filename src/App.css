@@ -7,12 +7,10 @@ html {
 body {
   margin: 0;
   font-family: 'Arcade Classic', 'Raleway', sans-serif;
-  
   background-color: rgba(34, 0, 49);
   background-image: linear-gradient(
     to bottom, transparent, rgba(34, 0, 49)
   ), url("images/bg.jpg");
-  
   /*
   background:url("images/bg.jpg");
   background-repeat: no-repeat;
@@ -24,8 +22,8 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  padding-bottom: 75px;
-  margin-bottom: 75px;
+  padding-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 
@@ -70,5 +68,5 @@ body {
 
 
 .headerarea {
-  min-height: 10vh;
+  min-height: 20vh;
 }
