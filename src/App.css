@@ -1,8 +1,7 @@
 html {
   height: 100%;
   padding: 10px;
-  width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -16,14 +15,17 @@ body {
   background-size: cover;
   background-position: top;
   cursor:url('./images/cursor.png'), auto;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 75px;
 }
 
 .headerarea {
   min-height: 25vh;
-  margin-top: auto;
-  margin-bottom: auto;
 }
-
 
 .textblue {
   color: rgb(88, 202, 255);
