@@ -9,7 +9,7 @@ export default class About extends Component {
                 <div className="pagebox pt-5 pb-5">
                     <div className="row justify-content-center col-12 text-white pl-5">
                         <div className="col-12 col-md-10 col-lg-6 pb-4 pt-4">
-                            <div className="biostats row justify-content-center">
+                            <div className="biostats row justify-content-center col-12">
                                 <img src={me} className="biopicture" alt="bio-pic" />
                                 <div className="pl-4">
                                     <h3 className="textyellow textspaced"><u>Player Info</u></h3>
@@ -21,23 +21,23 @@ export default class About extends Component {
                                 </div>
                             </div>
 
-                            <p className="raleway text-center pt-4 pr-2">
+                            <p className="raleway text-center pt-4">
                                 Neet Mangat is a Full Stack Web and Mobile Developer who is also certified in Salesforce Administration. <br /><br />
                                 He is well versed in React, React Native, Web3, JavaScript, Ruby, Ruby on Rails, jQuery, CSS, and HTML. <br /><br />
                             </p>
 
-                            <div className="row col-12 pt-3 pl-4">
+                            <div className="row col-12 pt-3">
                                 <h3 className="textyellow textspaced pr-3">Power Ups: </h3>
                                 <h5 className="text-white raleway pt-1">Coffee, Gym, Games</h5>
                             </div>
-                            <div className="row col-12 pl-4">
+                            <div className="row col-12">
                                 <h3 className="textyellow textspaced pr-3">Skills: </h3>
                                 <h5 className="text-white raleway pt-1">Coding, Music, Photography</h5>
                             </div>
                         </div>
 
 
-                        <div className="col-12 col-md-10 col-lg-6 pb-4 pt-4">
+                        <div className="col-12 col-md-10 col-lg-6 pb-4 pt-4 pr-0 pl-0">
                             <h3 className="textblue textspaced"><u>Player Brief</u></h3>
                             <ul className="raleway">
                                 <li className="brief-item">Embraces challenges.</li>    
