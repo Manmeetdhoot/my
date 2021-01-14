@@ -1,0 +1,8 @@
+.playerborder {
+    padding: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.playerborder:hover {
+    box-shadow: 3px 5px rgb(88, 202, 255);
+}

@@ -9,7 +9,7 @@ import Start from './pages/start';
 import Projects from './pages/projects';
 import Resume from './pages/resume';
 import Connect from './pages/connect';
-
+import Player from './pages/player';
 
 class App extends Component {
   constructor(props) {
@@ -19,19 +19,22 @@ class App extends Component {
     }
 
     this.changePage = this.changePage.bind(this);
-    this.navigate = this.navigate.bind(this);
+    this.start = this.start.bind(this);
   }
 
   changePage(newPage) {
     this.setState({ page: newPage });
   }
 
-  navigate() {
-    this.setState({ page: 'MENU' });
+  start() {
+    this.setState({ page: 'PLAYER' });
   }
+
 
   showPage() {
     switch (this.state.page) {
+      case 'PLAYER':
+        return <Player onClick={this.changePage} />
       case 'MENU':
         return <Navigation onClick={this.changePage} />
       case 'ABOUT':
@@ -43,7 +46,7 @@ class App extends Component {
       case 'CONNECT':
         return <Connect />
       default:
-        return <Start onClick={this.navigate} />
+        return <Start onClick={this.start} />
     }
   }
 
@@ -51,7 +54,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="col-12 headerarea">
-          <Header page={this.state.page} onClick={this.changePage} />
+          {this.state.page === 'START' || this.state.page === 'PLAYER' 
+            ? null 
+            : <Header page={this.state.page} onClick={this.changePage} />}
           <Aircraft />
           <Car />
         </div>
