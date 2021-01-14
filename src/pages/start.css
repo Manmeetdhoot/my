@@ -1,37 +1,26 @@
-.startimage, .startimage:hover {
-    max-height: 450px;
-    max-width: 450px;
-    height: auto;
-    border: 1px solid black;
-    box-shadow:  0.5rem 1rem rgba(0, 0, 0, 0.75);
-    cursor: pointer;
-}
-
 .startpage, .startpage:hover {
     background: url("../images/start.jpg");
     background-size: cover;
-    height: 450px;
-    width: 450px;
+    min-height: 450px;
+    min-width: 450px;
     border: 1px solid black;
     box-shadow:  0.5rem 1rem rgba(0, 0, 0, 0.75);
     cursor: pointer;
-    position: absolute;
-    top:auto;
-    bottom: auto;
 }
 
 .starttext {
     font-size: 40px;
-    position: relative;
+    position: absolute;
     top: 80%;
-    left: 25%;
+    width: 100%;
+    left: 0px;
+    text-align: center;
     color: rgb(255, 175, 25);
 }
-
-.starttext:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
+    .starttext:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
 
 .blink_me {
     animation: blinker 1s linear infinite;
@@ -41,4 +30,15 @@
     50% {
         opacity: 0.4;
     }
+}
+
+
+
+.startimage, .startimage:hover {
+    max-height: 450px;
+    max-width: 450px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow:  0.5rem 1rem rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
