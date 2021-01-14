@@ -4,7 +4,7 @@ import './connect.css';
 export default class Connect extends Component {
     render() {
         return(
-            <div className="col-12 row justify-content-center pt-4 mt-3 ml-1">
+            <div className="col-12 row justify-content-center mt-3 ml-0 mr-0">
 
                 <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4">
                     <h1 className="textpink textspaced">GitHub</h1>

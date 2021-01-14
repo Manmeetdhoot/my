@@ -13,7 +13,6 @@ export default class Start extends Component {
                         <p className="starttext blink_me textspaced" onClick={this.props.onClick}>START GAME</p>
                     </div>
                 </div>
-                
             </div>
         )
     }

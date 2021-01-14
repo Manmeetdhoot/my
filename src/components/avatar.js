@@ -6,7 +6,7 @@ import avatar from '../images/avatar.jpg';
 export default class Avatar extends Component {
     render() {
         return(
-            <div className="row col-lg-3 col-md-2 col-sm-12 justify-content-center">
+            <div className="row col-lg-3 col-md-2 col-sm-12 justify-content-center pt-3">
                 <img src={avatar} className="avatar" alt="avatar" />
                 <div className="socialicons align-items-center">
                     <a href="https://github.com/neetmangat" target="_blank" rel="noreferrer" className="socialicon"><span className="icon-github"></span></a>

@@ -70,3 +70,21 @@ body {
   min-height: 20vh;
 }
 */
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0.4;
+  }
+}
+
+.blink_me_slow {
+  animation: blinkerslow 1.5s linear infinite;
+}
+@keyframes blinkerslow {
+  50% {
+      opacity: 0.4;
+  }
+}
