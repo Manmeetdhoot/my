@@ -23,7 +23,6 @@ body {
   overflow-x: hidden;
   padding-bottom: 150px;
   margin-bottom: 100px;
-  touch-action: none;
 }
 
 ::-webkit-scrollbar {
