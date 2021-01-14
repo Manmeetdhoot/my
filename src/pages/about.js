@@ -11,12 +11,12 @@ export default class About extends Component {
                         <div className="col-12 col-md-10 col-lg-6 pt-3 pb-3">
                             <div className="row justify-content-center pl-2">
                                 <img src={me} className="biopicture" alt="bio-pic" />
-                                <div className="pl-3">
+                                <div className="pl-3 pt-2">
                                     <h3 className="textyellow textspaced"><u>Player Info</u></h3>
-                                    <ul className="no-bullets raleway pl-0">
-                                        <li><b>Name:</b> Neet Mangat</li>
-                                        <li><b>Location:</b> Dallas, TX</li>
-                                        <li><b>Occupation:</b> Web Developer</li>
+                                    <ul className="no-bullets pl-0">
+                                        <li><b className="textspaced">Name: </b><span className="raleway">Neet Mangat</span></li>
+                                        <li><b className="textspaced">Location: </b><span className="raleway">Dallas, TX</span></li>
+                                        <li><b className="textspaced">Occupation: </b><span className="raleway">Web Developer</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -26,18 +26,18 @@ export default class About extends Component {
                                 He is well versed in React, React Native, Web3, JavaScript, Ruby, Ruby on Rails, jQuery, CSS, and HTML. <br /><br />
                             </p>
 
-                            <div className="row col-12 pt-2 pl-4">
-                                <h3 className="textyellow textspaced pr-3">Power Ups: </h3>
-                                <h5 className="text-white raleway pt-1">Coffee, Gym, Games</h5>
+                            <div className="col-12 pb-1">
+                                <h3 className="textyellow textspaced">Power Ups: </h3>
+                                <h5 className="text-white textspaced">Coffee, Gym, Games</h5>
                             </div>
-                            <div className="row col-12 pl-4">
-                                <h3 className="textyellow textspaced pr-3">Skills: </h3>
-                                <h5 className="text-white raleway pt-1">Coding, Music, Photography</h5>
+                            <div className="col-12">
+                                <h3 className="textyellow textspaced">Skills: </h3>
+                                <h5 className="text-white textspaced">Coding, Music, Photography</h5>
                             </div>
                         </div>
 
 
-                        <div className="col-12 col-md-10 col-lg-6 pt-3 pb-3">
+                        <div className="col-12 col-md-10 col-lg-6 pt-4 pb-3">
                             <h3 className="textblue textspaced"><u>Player Brief</u></h3>
                             <ul className="raleway">
                                 <li className="brief-item">Embraces challenges.</li>    
