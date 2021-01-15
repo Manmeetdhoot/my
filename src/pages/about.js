@@ -7,7 +7,7 @@ export default class About extends Component {
         return(
             <div className="col-xs-12 col-xl-8 offset-xl-2">
                 <div className="pagebox pt-3 pb-5 shadow-lg">
-                    <div className="row justify-content-center col-12 text-white pr-1 pl-1">
+                    <div className="row justify-content-center col-12 text-white pr-1 pl-1 ml-0 mr-0">
                         <div className="col-12 col-md-10 col-lg-6 pt-3">
                             <div className="row justify-content-center pl-2">
                                 <img src={me} className="biopicture" alt="bio-pic" />
@@ -21,7 +21,7 @@ export default class About extends Component {
                                 </div>
                             </div>
 
-                            <p className="col-xs-12 col-xl-10 offset-xl-1 raleway pt-5 text-center">
+                            <p className="col-xs-12 col-xl-10 offset-xl-1 raleway pt-5 text-center pl-0 pr-0">
                                 Neet Mangat is a Full Stack Web and Mobile Developer who is also certified in Salesforce Administration. <br /><br />
                                 He is well versed in React, React Native, Web3, JavaScript, Ruby, Ruby on Rails, jQuery, CSS, and HTML. <br /><br />
                             </p>

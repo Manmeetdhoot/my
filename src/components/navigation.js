@@ -22,7 +22,6 @@ export default class Navigation extends Component {
                     <ul className="navbar-nav">
                         <li className="nav-item textspaced" id="ABOUT" onClick={this.handleClick}>About</li>
                         <li className="nav-item textspaced" id="PROJECTS" onClick={this.handleClick}>Projects</li>
-                        <li className="nav-item textspaced" id="RESUME" onClick={this.handleClick}>Resume</li>
                         <li className="nav-item textspaced" id="CONNECT" onClick={this.handleClick}>Connect</li>
                         <hr className="navbreak"/>
                         <li className="nav-item textspaced" id="START" onClick={this.handleClick}>Restart</li>

@@ -43,10 +43,6 @@ body {
   color: rgb(250, 95, 255);
 }
 
-.secondarytitle {
-  color: rgb(255, 224, 87);
-}
-
 .breakyellow {
   color: white;
   border: 1px solid rgb(255, 255, 255);
@@ -61,7 +57,7 @@ body {
   border: 2px solid rgba(250, 95, 255, 0.75);
   border-radius: 1%;
   padding: 20px;
-  min-height: 500px;
+  min-height: 600px;
   height: auto;
 }
 
