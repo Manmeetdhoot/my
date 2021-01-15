@@ -5,6 +5,7 @@ import mindshift from './images/projects/mindshift.png';
 import nota from './images/projects/nota.png';
 import tacoloco from './images/projects/tacoloco.png';
 import todoster from './images/projects/todoster.png';
+import mello from './images/projects/mello.png';
 
 
 export const projectData = [
@@ -97,7 +98,7 @@ export const projectData = [
         productivity app Trello. The front-end is powered by React with Ruby on Rails 
         powering the back-end API.`,
         technologies: 'React, Ruby on Rails, PostgresDB, JavaScript, CSS, HTML, GitHub, Heroku',
-        image: todoster,
+        image: mello,
         date_created: 'September 2020',
         link: 'https://mello-nm.herokuapp.com',
         github: 'https://github.com/neetmangat/mello-fullstack',
