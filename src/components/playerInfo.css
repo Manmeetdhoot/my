@@ -23,7 +23,7 @@
     margin: 0px;
 }
 
-@media (min-width: 650px) {  
+@media (min-width: 768px) {  
     .playername {font-size: 80px;}
     .playerbio {font-size: 30px;}
 }

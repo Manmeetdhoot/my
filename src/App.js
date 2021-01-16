@@ -58,9 +58,6 @@ class App extends Component {
             ? null 
             : <Header page={this.state.page} onClick={this.changePage} />}
         </div>
-
-        <Aircraft />
-        <Car />
   
         <div className="col-12 pt-3 gamearea">
           {this.showPage()}
