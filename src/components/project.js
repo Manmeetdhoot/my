@@ -18,13 +18,13 @@ export default class Project extends Component {
                         </div>
 
                         <div className="row justify-content-center pb-5">
-                            <a className="raleway  pr-4" target="_blank" href={this.props.link} rel="noreferrer">
+                            <a className="raleway pr-3" target="_blank" href={this.props.link} rel="noreferrer">
                                 <button className="btn-site">
                                     Launch Site
                                 </button>
                             </a>
 
-                            <a className="raleway pl-4" target="_blank" href={this.props.github} rel="noreferrer">
+                            <a className="raleway pl-3" target="_blank" href={this.props.github} rel="noreferrer">
                                 <button className="btn-site">
                                     Source Code
                                 </button>
