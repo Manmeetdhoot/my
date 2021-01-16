@@ -10,8 +10,8 @@ body {
   font-family: 'Arcade Classic', 'Raleway', sans-serif;
   background-color: rgba(34, 0, 49);
   background-image: linear-gradient(
-    to bottom, rgba(9, 0, 59, 0.5), rgba(34, 0, 30, 0.60)
-  ), url("images/bg2.gif");
+    to bottom, rgba(9, 0, 59, 0.6), rgba(34, 0, 30, 0.55)
+  ), url("images/bg.gif");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -33,7 +33,7 @@ body {
   body {
     background-image: linear-gradient(
     to bottom, rgba(9, 0, 59, 0.5), rgba(34, 0, 30, 0.60)
-  ), url("images/bg3.gif");
+  ), url("images/bg2.gif");
   }
 }
 
