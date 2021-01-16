@@ -1,12 +1,4 @@
-.startpage, .startpage:hover {
-    background: url("../images/start.jpg");
-    background-size: cover;
-    min-height: 450px;
-    min-width: 450px;
-    border: 1px solid black;
-    box-shadow:  0.5rem 1rem rgba(0, 0, 0, 0.75);
-    cursor: pointer;
-}
+
 
 .starttext {
     font-size: 40px;
@@ -28,6 +20,7 @@
     width: 100%;
     height: auto;
     border: 2px solid rgb(250, 95, 255, 0.75);
+    box-shadow:  1rem 1rem 0.5rem 0.5rem rgba(0, 0, 0, 0.15);
     border-radius: 1%;
     cursor: pointer;
 }

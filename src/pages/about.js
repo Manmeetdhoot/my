@@ -6,7 +6,7 @@ export default class About extends Component {
     render() {
         return(
             <div className="col-xs-12 col-xl-8 offset-xl-2">
-                <div className="pagebox pt-3 pb-5 shadow-lg">
+                <div className="pagebox pt-5 pb-5 shadow-lg">
                     <div className="row justify-content-center col-12 text-white pr-1 pl-1 ml-0 mr-0">
                         <div className="col-12 col-md-10 col-lg-6 pt-3">
                             <div className="row justify-content-center pl-2">
