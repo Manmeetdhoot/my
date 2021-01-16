@@ -10,13 +10,12 @@ import mello from './images/projects/mello.png';
 
 export const projectData = [
     {
-        title: 'Food Pyramid',
-        description: `Food Pyramid was designed for a cryptocurrency hedge fund startup.
-        Being the most intricate project completed to date, this site is a single-page web app 
-        that pulls live data from the Ethereum blockchain using the Web3 JS Library to feed the 
-        statistics featured on each asset. Additional functionality includes the ability to 
-        chart and buy assets directly on the site via page embeds. The Food Pyramid site is 
-        very responsive and mobile-friendly.`,
+        title: 'Pyramid',
+        description: `Pyramid was designed and built for a cryptocurrency hedge fund startup.
+        It is a single-page web app which pulls live data from the Ethereum blockchain, 
+        using the Web3 JS library, to feed the statistics featured on each asset. 
+        Additional functionality includes the ability to chart and buy assets directly 
+        on the site.`,
         technologies: 'React, Web3, Infura.io, JavaScript, HTML, CSS, GitHub, Netlify',
         image: food,
         date_created: 'November 2020',
@@ -56,7 +55,7 @@ export const projectData = [
         technologies: 'Ruby on Rails, Google Maps API, PostgresDB, HTML, CSS, GitHub, Heroku',
         image: tacoloco,
         date_created: 'June 2020',
-        link: 'https://tacolocos-nm.herokuapp.com',
+        link: 'https://tacolocos.herokuapp.com',
         github: 'https://github.com/neetmangat/tacoloco',
     },
     {

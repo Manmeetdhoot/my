@@ -1,11 +1,12 @@
 .avatar {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 100%;
     border-style: solid;
     border-color: white;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 1rem;
 }
 
 .socialicons {
@@ -19,4 +20,13 @@
     color: rgb(250, 95, 255);
     text-decoration: none;
     text-shadow: 3px 3px 1px #000;
+}
+
+@media (min-width: 650px) {
+    .avatar {
+        height: 100px;
+        width: 100px;
+        padding-right: 0px;
+        margin-right: 0rem;
+    }
 }
