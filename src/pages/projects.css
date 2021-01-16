@@ -1,11 +1,7 @@
 .btn-retro {
     background-color: rgb(88, 202, 255);
-    border: 2px solid transparent;
-    height: 50px;
-}
-
-.btn-retro:hover {
     border: 2px solid white;
+    height: 60px;
 }
 
 .dropdown-menu {
