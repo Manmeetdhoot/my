@@ -53,7 +53,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="col-12 headerarea">
+        <div className="col-12 pl-0 pr-0">
           {this.state.page === 'START' || this.state.page === 'PLAYER' 
             ? null 
             : <Header page={this.state.page} onClick={this.changePage} />}
