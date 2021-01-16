@@ -4,7 +4,7 @@ import grammable from './images/projects/grammable.png';
 import mindshift from './images/projects/mindshift.png';
 import nota from './images/projects/nota.png';
 import tacoloco from './images/projects/tacoloco.png';
-import todoster from './images/projects/todoster.png';
+import todos from './images/projects/todoster.png';
 import mello from './images/projects/mello.png';
 
 
@@ -81,12 +81,12 @@ export const projectData = [
         github: 'https://github.com/neetmangat/conspira'
     },
     {
-        title: 'Todoster',
+        title: 'Todos',
         description: `This single-page to-do application features a
         fluid user interface that allows users to rapidly add dynamic content
         and create to-do lists.`,
         technologies: 'React, Ruby on Rails, PostgresDB, JavaScript, CSS, HTML, GitHub, Heroku',
-        image: todoster,
+        image: todos,
         date_created: 'August 2020',
         link: 'https://todoster-nm.herokuapp.com',
         github: 'https://github.com/neetmangat/todo',

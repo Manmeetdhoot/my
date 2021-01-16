@@ -29,13 +29,13 @@ export default class Projects extends Component {
                             Mission Select
                         </button>
                         <div class="dropdown-menu raleway text-center" aria-labelledby="dropdownMenuButton">
-                            <button class="dropdown-item" onClick={this.handleClick} id="0">Food Pyramid</button>
+                            <button class="dropdown-item" onClick={this.handleClick} id="0">Pyramid</button>
                             <button class="dropdown-item" onClick={this.handleClick} id="1">Nota</button>
-                            <button class="dropdown-item" onClick={this.handleClick} id="2">MiNDSHiFT</button>
+                            <button class="dropdown-item" onClick={this.handleClick} id="2">MindShift</button>
                             <button class="dropdown-item" onClick={this.handleClick} id="3">TacoLoco</button>
                             <button class="dropdown-item" onClick={this.handleClick} id="4">Grammable</button>
                             <button class="dropdown-item" onClick={this.handleClick} id="5">Conspira</button>
-                            <button class="dropdown-item" onClick={this.handleClick} id="6">Todoster</button>
+                            <button class="dropdown-item" onClick={this.handleClick} id="6">Todos</button>
                             <button class="dropdown-item" onClick={this.handleClick} id="7">Mello</button>
 
                         </div>
