@@ -3,7 +3,7 @@ import './bonus.css';
 import Music from '../components/music';
 
 
-export default class Chill extends Component {
+export default class Bonus extends Component {
     constructor(props) {
         super(props);
         this.state ={
