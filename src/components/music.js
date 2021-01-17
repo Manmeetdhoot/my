@@ -2,42 +2,44 @@ import React from 'react';
 import './music.css';
 import song from '../sounds/song.mp3';
 import useSound from 'use-sound';
-import playButton from '../images/play.png';
-import stopButton from '../images/stop.png';
+import play from '../images/play.png';
+import pause from '../images/pause.png';
 
-export default function Music(props) {  
-    const [play, { stop }] = useSound(song, { volume: 0.5 });
-
-    const [isPlaying, setIsPlaying] = React.useState(
-        props.playing
-    );
+const audio = new Audio(song)
+const playButton = <img src={play} className="music-image" alt="play button" />
+const pauseButton = <img src={pause} className="music-image" alt="play button" />
 
 
-    const playSong = () => {
-        if (!isPlaying) {
-            play();
-            props.togglePlaying();
-            setIsPlaying(true);
-        }
+export default class Music extends React.Component {
+    constructor(props) {
+        super(props);
+        
+        this.togglePlay = this.togglePlay.bind(this);
     }
+  
+    componentDidMount() {
+      audio.addEventListener('ended', () => this.setState({ play: false }));
+    }
+  
+    componentWillUnmount() {
+      audio.removeEventListener('ended', () => this.setState({ play: false }));  
+    }
+  
+    togglePlay = () => {
+        this.props.togglePlaying();
 
-    const stopSong = () => {
-        if (isPlaying) {
-            stop();
-            props.togglePlaying();
-            setIsPlaying(false);
+        if (this.props.playing) {
+            audio.pause()
+        } else {
+            audio.play();
         }
     }
   
-    return (
-        <div className="row justify-content-center">
-            <button className="btn-music" onClick={playSong}>
-                <img src={playButton} className="music-image" alt="play button" />
-            </button>
-
-            <button className="btn-music" onClick={stopSong}>
-                <img src={stopButton} className="music-image" alt="stop button" />
-            </button>
-      </div>
-    );
+    render() {
+      return (
+        <div>
+          <button className="btn-music" onClick={this.togglePlay}>{this.props.playing ? pauseButton : playButton}</button>
+        </div>
+      );
+    }
 }

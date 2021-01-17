@@ -1,5 +1,5 @@
 import conspira from './images/projects/conspira.png';
-import food from './images/projects/food.png';
+import pyramid from './images/projects/pyramid.png';
 import grammable from './images/projects/grammable.png';
 import mindshift from './images/projects/mindshift.png';
 import nota from './images/projects/nota.png';
@@ -17,7 +17,7 @@ export const projectData = [
         Additional functionality includes the ability to chart and buy assets directly 
         on the site.`,
         technologies: 'React, Web3, Infura.io, JavaScript, HTML, CSS, GitHub, Netlify',
-        image: food,
+        image: pyramid,
         date_created: 'November 2020',
         link: 'https://food-nm.netlify.app',
         github: 'https://github.com/neetmangat/food-react',
