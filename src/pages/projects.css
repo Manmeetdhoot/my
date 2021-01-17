@@ -1,18 +1,18 @@
 .btn-retro {
     color: black;
-    background-color: rgb(88, 202, 255);
+    background-color: rgb(255, 175, 25);
     border: 2px solid black;
     height: 60px;
 }
 
 .btn-retro:hover {
-    color: rgb(88, 202, 255);
+    color: rgb(255, 175, 25);
     background-color:black;
-    border: 2px solid rgb(88, 202, 255);
+    border: 2px solid rgb(255, 175, 25);
 }
 
 .dropdown-menu {
-    background-color:rgb(88, 202, 255);
+    background-color:rgb(255, 175, 25);
     width:100%;
 }
 

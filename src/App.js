@@ -15,10 +15,12 @@ class App extends Component {
     super(props);
     this.state = {
       page: 'START',
+      playing: false,
     }
 
     this.changePage = this.changePage.bind(this);
     this.start = this.start.bind(this);
+    this.togglePlaying = this.togglePlaying.bind(this);
   }
 
   changePage(newPage) {
@@ -27,6 +29,11 @@ class App extends Component {
 
   start() {
     this.setState({ page: 'PLAYER' });
+  }
+
+  togglePlaying() {
+    const toggle = !this.state.playing;
+    this.setState({ playing: toggle })
   }
 
 
@@ -45,7 +52,7 @@ class App extends Component {
       case 'CONNECT':
         return <Connect />
       case 'CHILL':
-        return <Chill onClick={this.changePage}/>
+        return <Chill onClick={this.changePage} playing={this.state.playing} togglePlaying={this.togglePlaying} />
       default:
         return <Start onClick={this.start} />
     }
