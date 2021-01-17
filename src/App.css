@@ -11,7 +11,7 @@ body {
   background-color: rgba(34, 0, 49);
   background-image: linear-gradient(
     to bottom, rgba(9, 0, 59, 0.6), rgba(34, 0, 30, 0.55)
-  ), url("images/bg.gif");
+  ), url("images/bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -24,11 +24,16 @@ body {
   margin-bottom: 100px;
 }
 
+:focus {
+  outline: 0 !important;
+}
+
 ::-webkit-scrollbar {
   width: 0px;  /* Remove scrollbar space */
   background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
+/*
 @media (min-width: 768px) {
   body {
     background-image: linear-gradient(
@@ -36,6 +41,7 @@ body {
   ), url("images/bg.gif");
   }
 }
+*/
 
 
 .textblue {
