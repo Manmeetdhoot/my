@@ -12,7 +12,7 @@
 
 .btn-music:hover {
     background-image: linear-gradient(
-        to top, rgba(9, 0, 59, 0.8), rgba(34, 0, 30, 0.8)
+        to bottom, rgba(9, 0, 59, 0.8), rgba(34, 0, 30, 0.8)
     );
 }
 

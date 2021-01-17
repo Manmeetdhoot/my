@@ -11,23 +11,22 @@ export default function Music(props) {
     const [isPlaying, setIsPlaying] = React.useState(
         props.playing
     );
-  
-    const togglePlaying = () => {
-        props.togglePlaying();
-    }
+
 
     const playSong = () => {
         if (!isPlaying) {
             play();
-            togglePlaying();
-            setIsPlaying(true)
+            props.togglePlaying();
+            setIsPlaying(true);
         }
     }
 
     const stopSong = () => {
-        stop();
-        togglePlaying();
-        setIsPlaying(false)
+        if (isPlaying) {
+            stop();
+            props.togglePlaying();
+            setIsPlaying(false);
+        }
     }
   
     return (
