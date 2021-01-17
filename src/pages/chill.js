@@ -29,8 +29,8 @@ export default class Chill extends Component {
                     <button className="btn-site pl-5 pr-5 mr-3 textspaced btn-larger" id="MENU" onClick={this.handleClick}>
                         MENU
                     </button>
-                    <button className="btn-site ml-3 textspaced btn-larger" onClick={ () => audio.play() }>
-                        PLAY MUSIC
+                    <button className="btn-site pl-5 pr-5 ml-3 textspaced btn-larger" onClick={ () => audio.play() }>
+                        MUSIC
                     </button>
                 </div>
             </div>

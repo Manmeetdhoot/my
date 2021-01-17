@@ -1,14 +1,14 @@
 .btn-retro {
-    color: white;
-    background-color: rgb(250, 95, 255);
-    border: 2px solid white;
+    color: black;
+    background-color: rgb(88, 202, 255);
+    border: 2px solid black;
     height: 60px;
 }
 
 .btn-retro:hover {
-    color: rgb(250, 95, 255);
-    background-color: black;
-    border: 2px solid rgb(250, 95, 255);
+    color: rgb(88, 202, 255);
+    background-color:black;
+    border: 2px solid rgb(88, 202, 255);
 }
 
 .dropdown-menu {
@@ -18,18 +18,4 @@
 
 .textlarge {
     font-size: 20px;
-}
-
-@media (min-width: 768px) {
-    .btn-retro {
-        color: black;
-        border: 2px solid black;
-        background-color: rgb(88, 202, 255);
-    }
-
-    .btn-retro:hover {
-        color: rgb(88, 202, 255);
-        background-color:black;
-        border: 2px solid rgb(88, 202, 255);
-    }
 }
