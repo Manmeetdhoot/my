@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header';
 import Navigation from './components/navigation';
-import Aircraft from './components/aircraft';
-import Car from './components/car';
 import About from './pages/about';
 import Start from './pages/start';
 import Projects from './pages/projects';
@@ -62,7 +60,7 @@ class App extends Component {
             : <Header page={this.state.page} onClick={this.changePage} />}
         </div>
   
-        <div className="col-12 pt-3 gamearea">
+        <div className="col-12 pt-3">
           {this.showPage()}
         </div>
       </div>
