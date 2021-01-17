@@ -7,43 +7,46 @@ export default class Projects extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            projectNumber: '',
+            projectID: '',
         }
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick(e) {
         e.preventDefault();
-        const projectNumber = e.target.id;
-        this.setState({ projectNumber: projectNumber })
+        const projectID = e.target.id;
+        this.setState({ projectID: projectID })
     }
 
     render() {
-        const selectedProject = this.state.projectNumber;
+        const selectedProject = this.state.projectID;
 
         return(
             <div className="col-xs-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 mb-5 pb-5">
                 <div className="row justify-content-center pb-4">
                     <div class="dropdown">
-                        <button class="btn btn-retro dropdown-toggle textspaced textlarge" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button 
+                            class="btn btn-retro dropdown-toggle textspaced textlarge" 
+                            type="button" 
+                            id="dropdownMenuButton" 
+                            data-toggle="dropdown" 
+                            aria-haspopup="true" 
+                            aria-expanded="false"
+                        >
                             Mission Select
                         </button>
                         <div class="dropdown-menu raleway text-center" aria-labelledby="dropdownMenuButton">
-                            <button class="dropdown-item" onClick={this.handleClick} id="0">Pyramid</button>
-                            <button class="dropdown-item" onClick={this.handleClick} id="1">Nota</button>
-                            <button class="dropdown-item" onClick={this.handleClick} id="2">MindShift</button>
-                            <button class="dropdown-item" onClick={this.handleClick} id="3">TacoLoco</button>
-                            <button class="dropdown-item" onClick={this.handleClick} id="4">Grammable</button>
-                            <button class="dropdown-item" onClick={this.handleClick} id="5">Conspira</button>
-                            <button class="dropdown-item" onClick={this.handleClick} id="6">Todos</button>
-                            <button class="dropdown-item" onClick={this.handleClick} id="7">Mello</button>
+
+                            {projectData.map((project, index) => {
+                                return <button class="dropdown-item" onClick={this.handleClick} id={index}>{project.title}</button>
+                            })}
 
                         </div>
                     </div>
                 </div>
 
                 <div className="pagebox shadow-lg row justify-content-center pr-0 pl-0">
-                    {this.state.projectNumber 
+                    {this.state.projectID 
                         ?   <Project 
                                 title={projectData[selectedProject].title} 
                                 image={projectData[selectedProject].image} 
@@ -53,7 +56,9 @@ export default class Projects extends Component {
                                 date={projectData[selectedProject].date_created} 
                                 github={projectData[selectedProject].github}
                             />
-                        : <h2 className="col-12 text-center textyellow textspaced pt-5 mt-5">Please select a mission above.</h2>
+                        :   <h2 className="col-12 text-center textyellow textspaced pt-5 mt-5">
+                                Please select a mission above.
+                            </h2>
                     }
                 </div>
             </div>

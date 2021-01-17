@@ -5,10 +5,9 @@ import Navigation from './components/navigation';
 import About from './pages/about';
 import Start from './pages/start';
 import Projects from './pages/projects';
-import Resume from './pages/resume';
 import Connect from './pages/connect';
 import Player from './pages/player';
-import Chill from './pages/chill';
+import Bonus from './pages/bonus';
 
 class App extends Component {
   constructor(props) {
@@ -47,12 +46,10 @@ class App extends Component {
         return <About />
       case 'PROJECTS':
         return <Projects />
-      case 'RESUME':
-        return <Resume />
       case 'CONNECT':
         return <Connect />
-      case 'CHILL':
-        return <Chill onClick={this.changePage} playing={this.state.playing} togglePlaying={this.togglePlaying} />
+      case 'BONUS':
+        return <Bonus onClick={this.changePage} playing={this.state.playing} togglePlaying={this.togglePlaying} />
       default:
         return <Start onClick={this.start} />
     }

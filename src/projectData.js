@@ -6,9 +6,21 @@ import nota from './images/projects/nota.png';
 import tacoloco from './images/projects/tacoloco.png';
 import todos from './images/projects/todoster.png';
 import mello from './images/projects/mello.png';
+import portfolio from './images/projects/portfolio.png';
 
 
 export const projectData = [
+    {
+        title: 'Portfolio',
+        description: `This portfolio was created using React. The inspiration for the theme 
+        was based on 80's retro arcade games. The site is mobile and desktop responsive, with 
+        additional functionality including an app-wide music player that is saved in the app state. `,
+        technologies: 'React, JavaScript, HTML, CSS, GitHub, Netlify',
+        image: portfolio,
+        date_created: 'January 2021',
+        link: 'https://www.neetmangat.com',
+        github: 'https://github.com/neetmangat/portfolio2021',
+    },
     {
         title: 'Pyramid',
         description: `Pyramid was designed and built for a cryptocurrency hedge fund startup.
