@@ -3,7 +3,7 @@
     width: 80px;
     border: 2px solid rgb(250, 95, 255);
     border-radius: 50%;
-    background: linear-gradient(
+    background-image: linear-gradient(
         to bottom, rgb(9, 0, 59), rgb(34, 0, 30)
     );
     padding: 10px;

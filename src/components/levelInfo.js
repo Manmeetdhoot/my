@@ -20,7 +20,7 @@ export default class LevelInfo extends Component {
                     <h4 className="textyellow textspaced">Current Level</h4>
                     <h3 className="textblue textspaced">{this.props.page}</h3>
                     <hr className="navbreak" />
-                    <h5 className="return text-white textspaced blink_me_slow" id="MENU" onClick={this.handleClick}>Return To Menu</h5>
+                    <h5 className="return text-white textspaced blink_me_slow" id="MENU" onClick={this.handleClick} >Return To Menu</h5>
                 </div>
             </div>
         )
