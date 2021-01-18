@@ -7,13 +7,12 @@ import pause from '../images/pause.png';
 
 const audio = new Audio(song)
 const playButton = <img src={play} className="music-image" alt="play button" />
-const pauseButton = <img src={pause} className="music-image" alt="play button" />
+const pauseButton = <img src={pause} className="music-image" alt="pause button" />
 
 
 export default class Music extends React.Component {
     constructor(props) {
         super(props);
-        
         this.togglePlay = this.togglePlay.bind(this);
     }
   
@@ -38,7 +37,9 @@ export default class Music extends React.Component {
     render() {
       return (
         <div>
-          <button className="btn-music" onClick={this.togglePlay}>{this.props.playing ? pauseButton : playButton}</button>
+          <button className={this.props.playing ? "btn-pause" : "btn-play"} onClick={this.togglePlay}>
+            {this.props.playing ? pauseButton : playButton}
+          </button>
         </div>
       );
     }
