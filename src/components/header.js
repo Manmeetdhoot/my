@@ -12,10 +12,10 @@ export default class Header extends Component {
             <div className="row justify-content-center">
                 <div className="col-12 col-xl-6">
                     <div className="row headerbox shadow-lg">
-                        <div className="col-lg-8 col-md-9 col-sm-9 pl-3 ml-0">
+                        <div className="col-8 pl-3 ml-0">
                             <PlayerInfo /> 
                         </div>
-                        <div className="d-flex align-items-center justify-content-center col-lg-4 col-md-3 col-sm-3 pt-3 ">
+                        <div className="col-4 pt-1 pl-0 pr-0 mr-0 ml-0">
                             <Avatar />
                         </div>
                     </div>
@@ -32,3 +32,14 @@ export default class Header extends Component {
 }
 
 /* col-lg-3 col-md-3 col-sm-12 pt-3 */
+
+/*
+
+<div className="col-lg-9 col-md-10 col-sm-12 pl-3 ml-0">
+    <PlayerInfo /> 
+</div>
+<div className="d-flex align-items-center justify-content-center col-lg-3 col-md-2 col-sm-12 pt-3 ">
+    <Avatar />
+</div>
+
+*/

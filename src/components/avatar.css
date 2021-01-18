@@ -11,7 +11,7 @@
 
 .socialicons {
     width: 100%;
-    padding: 0% 30%;
+    padding: 0% 10%;
 }
 
 .socialicon, .socialicon:hover {
@@ -28,7 +28,7 @@
         border: 2px solid white;
     }
 
-    .socialicons {
-        padding: 0% 10%;
+    .avatar-container {
+        padding-top: 1.25rem;
     }
 }
