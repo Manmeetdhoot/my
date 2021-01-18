@@ -5,6 +5,6 @@
     border-radius: 1%;
 }
 .playerborder:hover {
-    border: 1px solid rgb(250, 95, 255);
-    border-radius: 5%;
+    border: 1px solid rgba(109, 0, 182, 0.7);
+    border-radius: 15%;
 }

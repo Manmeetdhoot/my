@@ -12,10 +12,10 @@ export default class Header extends Component {
             <div className="row">
                 <div className="col-xs-12 col-xl-6">
                     <div className="row headerbox shadow-lg">
-                        <div className="col-8 pl-3 ml-0">
+                        <div className="col-8 col-sm-8 pl-2 ml-0">
                             <PlayerInfo /> 
                         </div>
-                        <div className="col-4 pt-1 pl-0 pr-0 mr-0 ml-0">
+                        <div className="col-4 col-sm-4 pt-0 pl-0 pr-0 mr-0 ml-0">
                             <Avatar />
                         </div>
                     </div>
