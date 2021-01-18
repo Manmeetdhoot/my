@@ -19,7 +19,7 @@ export default class Connect extends Component {
 
                 <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4 mr-3 ml-3">
                     <h1 className="textpink textspaced">Email</h1>
-                    <a href="mailto:gurneetsmangat@gmail.com" target="_blank" rel="noreferrer" className="socialicon-large">
+                    <a href="mailto:neetmangat@gmail.com" target="_blank" rel="noreferrer" className="socialicon-large">
                         <span className="icon-mail_outline socialicon-large"></span>
                     </a>
                     <hr className="navbreak" />

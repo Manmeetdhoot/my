@@ -9,8 +9,8 @@ import PlayerInfo from './playerInfo';
 export default class Header extends Component {
     render() {
         return(
-            <div className="row justify-content-center">
-                <div className="col-12 col-xl-6">
+            <div className="row">
+                <div className="col-xs-12 col-xl-6">
                     <div className="row headerbox shadow-lg">
                         <div className="col-8 pl-3 ml-0">
                             <PlayerInfo /> 
@@ -21,7 +21,7 @@ export default class Header extends Component {
                     </div>
                 </div>
 
-                <div className="col-xs-12 col-sm-8 col-md-6 col-xl-3 offset-xl-3">
+                <div className="col-xs-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-xl-3 offset-xl-3">
                     {this.props.page === 'START' || this.props.page === 'MENU' || this.props.page === 'PLAYER' 
                     ? null 
                     : <LevelInfo page={this.props.page} onClick={this.props.onClick} />}
