@@ -3,6 +3,7 @@
     overflow: hidden;
     top: 0;
     left: 5%;
+    width: 85%;
 }
 
 .playername {
@@ -12,7 +13,7 @@
 }   
   
 .playerbio {
-    font-size: 23px;
+    font-size: 22px;
     margin-bottom: 0px;
     text-shadow: 3px 3px 1px #000;
 }
@@ -20,12 +21,13 @@
 .horizontalbreak {
     color: white;
     border: 1px solid  rgb(255, 224, 87);
-    width: 90%;
+    width: 100%;
 }
 
 @media (min-width: 576px) {
     .playername {font-size: 40px;}
     .playerbio {font-size: 25px;}
+    .player-info-container {width: 100%;}
 }
 
 @media (min-width: 768px) {  

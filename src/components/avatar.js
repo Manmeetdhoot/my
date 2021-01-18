@@ -7,7 +7,7 @@ export default class Avatar extends Component {
     render() {
         return(
             <div className="avatar-container">
-                <div className="row justify-content-center pt-0 mt-0">
+                <div className="row justify-content-center mt-0">
                     <img src={avatar} className="avatar" alt="avatar" />
                 </div>
                 <div className="d-flex justify-content-center justify-content-around socialicons pt-2">

@@ -3,15 +3,15 @@
 }
 
 .avatar {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     border-radius: 100%;
     border: 1px solid white;
 }
 
 .socialicons {
     width: 100%;
-    padding: 0% 10%;
+    padding: 0% 5%;
 }
 
 .socialicon, .socialicon:hover {
@@ -30,5 +30,9 @@
 
     .avatar-container {
         padding-top: 1.25rem;
+    }
+
+    .socialicons {
+        padding: 0% 15%;
     }
 }
