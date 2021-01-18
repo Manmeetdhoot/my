@@ -4,15 +4,10 @@
     border: 2px solid rgb(250, 95, 255, 0.25);
     border-radius: 1%;
     margin: 10px;
-    padding-top: 15px;
 }
 
-.levelname {
-    color: rgb(88, 202, 255);
-}
 
 .return {
-    color: #FFF;
     font-size: 18px;
 }
 

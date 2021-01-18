@@ -15,12 +15,12 @@ export default class LevelInfo extends Component {
 
     render() {
         return(
-            <div className="gameinfo">
+            <div className="gameinfo pt-2 pb-2">
                 <div className="text-center">
                     <h4 className="textyellow textspaced">Current Level</h4>
-                    <h3 className="levelname textspaced">{this.props.page}</h3>
+                    <h3 className="textblue textspaced">{this.props.page}</h3>
                     <hr className="navbreak" />
-                    <p className="return textspaced blink_me_slow" id="MENU" onClick={this.handleClick} >Return To Menu</p>
+                    <h5 className="return text-white textspaced blink_me_slow" id="MENU" onClick={this.handleClick}>Return To Menu</h5>
                 </div>
             </div>
         )
