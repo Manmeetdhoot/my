@@ -4,9 +4,9 @@ import './connect.css';
 export default class Connect extends Component {
     render() {
         return(
-            <div className="col-12 row justify-content-center mt-3 ml-0 mr-0">
+            <div className="col-12 row justify-content-center mt-3 ml-0 mr-0 pl-0 pr-0">
 
-                <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4">
+                <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4 mr-3 ml-3">
                     <h1 className="textpink textspaced">GitHub</h1>
                     <a href="https://github.com/neetmangat" target="_blank" rel="noreferrer" className="socialicon-large">
                         <span className="icon-github"></span>
@@ -17,7 +17,7 @@ export default class Connect extends Component {
                     </p>
                 </div>
 
-                <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4">
+                <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4 mr-3 ml-3">
                     <h1 className="textpink textspaced">Email</h1>
                     <a href="mailto:gurneetsmangat@gmail.com" target="_blank" rel="noreferrer" className="socialicon-large">
                         <span className="icon-mail_outline socialicon-large"></span>
@@ -28,7 +28,7 @@ export default class Connect extends Component {
                     </p>
                 </div>
 
-                <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4">
+                <div className="col-lg-3 col-xs-12 socialbox text-center shadow-lg pt-5 mb-4 mr-3 ml-3">
                     <h1 className="textpink textspaced">LinkedIn</h1>
                     <a href="https://www.linkedin.com/in/neetmangat/" target="_blank" rel="noreferrer" className="socialicon-large">
                         <span className="icon-linkedin-square"></span>

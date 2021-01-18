@@ -19,13 +19,8 @@ export default class Player extends Component {
             <div className="col-xs-12 col-sm-10 offset-sm-1 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 pt-5 mt-5">
                 <div className="menubox justify-content-center shadow-lg mb-5">
                     <h2 class="textyellow textspaced"><u>Player Select</u></h2>
-
-                    <div onClick={this.handleClick}>
-                        <PlayerCard name="Neet Mangat" location="Dallas, TX" occupation="Web Developer" />
-                    </div>
-
+                    <PlayerCard name="Neet Mangat" onClick={this.handleClick} />
                     <hr className="navbreak"/>
-                    
                     <div className="nav-item textspaced" id="START" onClick={this.handleClick}>Restart</div>
                 </div>
             </div>
