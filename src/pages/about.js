@@ -27,7 +27,7 @@ export default class About extends Component {
                             <p className="raleway text-center col-xs-12 col-xl-10 offset-xl-1 pt-2 pl-1 pr-1">
                                 Neet Mangat is a Full Stack Web and Mobile Developer who is also certified in Salesforce Administration.
                                 He is well versed in React, React Native, Web3, JavaScript, Ruby, Ruby on Rails, and traditional web languages such as CSS, and HTML. <br /><br />
-                                Having embraced development at a rapid pace he has built numberous progessive web apps and mobile app prototypes.
+                                Having embraced development at a rapid pace, he has built numerous progessive web and mobile appplication prototypes.
                                 These projects vary in nature, ranging from creative personal sites to business and finance platforms using blockchain technologies.
                             </p>
                         </div>
