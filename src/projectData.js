@@ -31,8 +31,8 @@ export const projectData = [
         technologies: 'React, Web3, Infura.io, JavaScript, HTML, CSS, GitHub, Netlify',
         image: pyramid,
         date_created: 'November 2020',
-        link: 'https://food-nm.netlify.app',
-        github: 'https://github.com/neetmangat/food-react',
+        link: 'https://pyramid-nm.netlify.app',
+        github: 'https://github.com/neetmangat/pyramid-react',
     },
     {
         title: 'Nota',
