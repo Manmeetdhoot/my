@@ -14,16 +14,38 @@ export const projectData = [
     title: "Flixer",
     description: `Flixer is a clone of Netflix's web interface. This app was created using React 
     functional components, axios for async/await requests, and deployed on Google Firebase. Firebase Authentication
-    allows user account creation, and Firebase Firestore is the database used to store customers and products.
+    allows user account creation, and Firebase Firestore is the database used to store customer and product records.
     Additional functionality includes customer subscription checkout powered by the Stripe Firebase Extension and 
-    Stripe API integration. Once a user is subscribed, movie data pulls from The Movie Database (TMDB) for current trends 
-    and movie posters. It also integrates a movie trailer from YouTube if one is successfully found.`,
+    Stripe API integration. Once a user is subscribed, movie data is pulled from The Movie Database (TMDB) for trending movies 
+    and movie poster images. Movie trailers are integrated from YouTube if one is successfully found.`,
     technologies:
-      "React, Stripe API, Firebase, Firestore, JavaScript, HTML, CSS, GitHub",
+      "React, Stripe API, Firebase, Firebase Authentication, Firebase Firestore, JavaScript, HTML, CSS, GitHub",
     image: flixer,
     date_created: "February 2021",
     link: "https://flix-97e6f.web.app/profile",
     github: "https://github.com/neetmangat/flixer",
+    test_user: "test@test.com",
+    test_password: "abc123",
+    cc: {
+      number: "4242 4242 4242 4242",
+      expiration: "04/24",
+      cvv: "424",
+      billing: "Anything",
+    },
+  },
+  {
+    title: "Pyramid",
+    description: `Pyramid was designed and built for a cryptocurrency hedge fund startup.
+        It is a single-page web app which pulls live data from the Ethereum blockchain, 
+        using the Web3 JS library, to feed the statistics featured on each asset's page. 
+        Additional functionality includes the ability to chart and buy assets directly 
+        on the site.`,
+    technologies:
+      "React, Web3, Infura.io, JavaScript, HTML, CSS, GitHub, Netlify",
+    image: pyramid,
+    date_created: "November 2020",
+    link: "https://pyramid-nm.netlify.app",
+    github: "https://github.com/neetmangat/pyramid-react",
   },
   {
     title: "Portfolio",
@@ -35,20 +57,6 @@ export const projectData = [
     date_created: "January 2021",
     link: "https://www.neetmangat.com",
     github: "https://github.com/neetmangat/portfolio2021",
-  },
-  {
-    title: "Pyramid",
-    description: `Pyramid was designed and built for a cryptocurrency hedge fund startup.
-        It is a single-page web app which pulls live data from the Ethereum blockchain, 
-        using the Web3 JS library, to feed the statistics featured on each asset. 
-        Additional functionality includes the ability to chart and buy assets directly 
-        on the site.`,
-    technologies:
-      "React, Web3, Infura.io, JavaScript, HTML, CSS, GitHub, Netlify",
-    image: pyramid,
-    date_created: "November 2020",
-    link: "https://pyramid-nm.netlify.app",
-    github: "https://github.com/neetmangat/pyramid-react",
   },
   {
     title: "Nota",
@@ -76,6 +84,13 @@ export const projectData = [
     date_created: "July 2020",
     link: "https://mindshift-nm.herokuapp.com",
     github: "https://github.com/neetmangat/mindshift",
+    test_user: "test2@test.com",
+    test_password: "abc123",
+    cc: {
+      number: "4242 4242 4242 4242",
+      expiration: "04/24",
+      cvv: "424",
+    },
   },
   {
     title: "Tacoloco",
@@ -88,6 +103,8 @@ export const projectData = [
     date_created: "June 2020",
     link: "https://tacolocos.herokuapp.com",
     github: "https://github.com/neetmangat/tacoloco",
+    test_user: "test@test.com",
+    test_password: "password",
   },
   {
     title: "Grammable",
@@ -99,6 +116,8 @@ export const projectData = [
     date_created: "July 2020",
     link: "https://grammable-nm.herokuapp.com",
     github: "https://github.com/neetmangat/grammable",
+    test_user: "test@test.com",
+    test_password: "password",
   },
   {
     title: "Conspira",
@@ -134,5 +153,7 @@ export const projectData = [
     date_created: "September 2020",
     link: "https://mello-nm.herokuapp.com",
     github: "https://github.com/neetmangat/mello-fullstack",
+    test_user: "test@test.com",
+    test_password: "password",
   },
 ];
