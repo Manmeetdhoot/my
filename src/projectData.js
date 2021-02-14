@@ -13,13 +13,14 @@ export const projectData = [
   {
     title: "Flixer",
     description: `Flixer is a clone of Netflix's web interface. This app was created using React 
-    functional components, axios for async/await requests, and deployed on Google Firebase. Firebase Authentication
-    allows user account creation, and Firebase Firestore is the database used to store customer and product records.
-    Additional functionality includes customer subscription checkout powered by the Stripe Firebase Extension and 
-    Stripe API integration. Once a user is subscribed, movie data is pulled from The Movie Database (TMDB) for trending movies 
-    and movie poster images. Movie trailers are integrated from YouTube if one is successfully found.`,
+    functional components, Redux state management, axios async/await requests, and deployed on Google Firebase. 
+    Firebase Authentication allows user account creation, and Firebase Firestore is the database used to store 
+    customer and product records. Additional functionality includes customer subscription checkout powered by 
+    the Stripe Firebase Extension and Stripe API integration. Once a user is subscribed, movie data is pulled 
+    from The Movie Database (TMDB) for trending movies and movie poster images. Movie trailers are integrated 
+    from YouTube if one is successfully found.`,
     technologies:
-      "React, Stripe API, Firebase, Firebase Authentication, Firebase Firestore, JavaScript, HTML, CSS, GitHub",
+      "React, Redux, Stripe API, Firebase Authentication, Firebase Firestore, JavaScript, HTML, CSS, GitHub",
     image: flixer,
     date_created: "February 2021",
     link: "https://flix-97e6f.web.app/profile",

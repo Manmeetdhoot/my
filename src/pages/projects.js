@@ -56,18 +56,7 @@ export default class Projects extends Component {
 
         <div className="pagebox shadow-lg row justify-content-center pr-0 pl-0">
           {this.state.projectID ? (
-            <Project
-              title={projectData[selectedProject].title}
-              image={projectData[selectedProject].image}
-              description={projectData[selectedProject].description}
-              technologies={projectData[selectedProject].technologies}
-              link={projectData[selectedProject].link}
-              date={projectData[selectedProject].date_created}
-              github={projectData[selectedProject].github}
-              test_user={projectData[selectedProject].test_user}
-              test_password={projectData[selectedProject].test_password}
-              cc={projectData[selectedProject].cc}
-            />
+            <Project data={projectData[selectedProject]} />
           ) : (
             <h2 className="col-12 text-center textyellow textspaced pt-5 mt-5">
               Please select a mission above.
