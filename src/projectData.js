@@ -46,7 +46,7 @@ export const projectData = [
     image: pyramid,
     date_created: "November 2020",
     link: "https://pyramid-nm.netlify.app",
-    github: "https://github.com/neetmangat/pyramid-react",
+    github: "https://github.com/neetmangat/pyramid",
   },
   {
     title: "Portfolio",
@@ -57,7 +57,7 @@ export const projectData = [
     image: portfolio,
     date_created: "January 2021",
     link: "https://www.neetmangat.com",
-    github: "https://github.com/neetmangat/portfolio2021",
+    github: "https://github.com/neetmangat/portfolio",
   },
   {
     title: "Nota",
@@ -153,7 +153,7 @@ export const projectData = [
     image: mello,
     date_created: "September 2020",
     link: "https://mello-nm.herokuapp.com",
-    github: "https://github.com/neetmangat/mello-fullstack",
+    github: "https://github.com/neetmangat/mello",
     test_user: "test@test.com",
     test_password: "password",
   },
